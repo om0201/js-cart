@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.products-container {
+  flex-basis: 70%;
+  border-right: 1px solid #ccc;
+}
+
+.products-heading {
+  text-align: center;
+}
+
+.products-display-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 45%;
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+}
+
+.price-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 0.25rem 0.75rem;
+}
+
+.cart-container {
+  flex-basis: 30%;
+}
